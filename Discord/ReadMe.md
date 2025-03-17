@@ -1,2 +1,1 @@
-# Dear Discord Player
-put your character sheet over here please!
+# Brave New World Character Sheets 
