@@ -1,8 +1,13 @@
 {
 	"version": 5,
 	"id": "ALa1HfMx9apxb6seP",
-	"total_points": 160,
+	"total_points": 161,
 	"points_record": [
+		{
+			"when": "2025-04-07T20:59:58+02:00",
+			"points": 1,
+			"reason": "Offset to learn meditation"
+		},
 		{
 			"when": "2025-03-30T15:28:54+02:00",
 			"points": 14,
@@ -1722,6 +1727,43 @@
 						"level": 12,
 						"rsl": "IQ-1"
 					}
+				},
+				{
+					"id": "srcdH1n_QG1QNYsRM",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "s9Ea1OCpoHkrNdjwf"
+					},
+					"name": "Meditation",
+					"reference": "B207",
+					"tags": [
+						"Esoteric"
+					],
+					"difficulty": "will/h",
+					"defaults": [
+						{
+							"type": "will",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Autohypnosis",
+							"modifier": -4
+						}
+					],
+					"points": 1,
+					"defaulted_from": {
+						"type": "will",
+						"modifier": -6,
+						"level": 7,
+						"adjusted_level": 7,
+						"points": -7
+					},
+					"calc": {
+						"level": 11,
+						"rsl": "Will-2"
+					}
 				}
 			]
 		},
@@ -3163,7 +3205,7 @@
 		}
 	],
 	"created_date": "2025-02-07T21:55:43+01:00",
-	"modified_date": "2025-03-30T16:20:26+02:00",
+	"modified_date": "2025-04-07T20:59:30+02:00",
 	"calc": {
 		"swing": "1d-1",
 		"thrust": "1d-2",
