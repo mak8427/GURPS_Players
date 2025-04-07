@@ -1,8 +1,13 @@
 {
 	"version": 5,
 	"id": "ALa1HfMx9apxb6seP",
-	"total_points": 146,
+	"total_points": 160,
 	"points_record": [
+		{
+			"when": "2025-03-30T15:28:54+02:00",
+			"points": 14,
+			"reason": "Session #3"
+		},
 		{
 			"when": "2025-03-11T00:22:42+01:00",
 			"points": 11,
@@ -902,24 +907,6 @@
 					}
 				},
 				{
-					"id": "t7T-Qq3f54VxuAprl",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Traits.adq",
-						"id": "tU0Q0IQExDW94Gd_4"
-					},
-					"name": "Megalomania",
-					"reference": "B144",
-					"tags": [
-						"Disadvantage",
-						"Mental"
-					],
-					"base_points": -10,
-					"calc": {
-						"points": -10
-					}
-				},
-				{
 					"id": "tTRQASfgfWY2D_P_a",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -965,6 +952,26 @@
 					}
 				},
 				{
+					"id": "t41V9nlufIajszJv6",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tzWQ90ARlX5DcAAu7"
+					},
+					"name": "Nightmares",
+					"reference": "B144",
+					"notes": "Make a self-control roll each morning upon awakening. If you fail, you suffered nightmares; this costs you 1 FP that you can only recover through sleep. On a roll of 17 or 18, you are left shaking, and are at -1 to all skill and Perception rolls for the entire day.",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"cr": 12,
+					"base_points": -5,
+					"calc": {
+						"points": -5
+					}
+				},
+				{
 					"id": "tto_twupMB98kK3O1",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -978,27 +985,6 @@
 						"Disadvantage",
 						"Mental"
 					],
-					"cr": 12,
-					"base_points": -5,
-					"calc": {
-						"points": -5
-					}
-				},
-				{
-					"id": "tQl3fT2anLyvvwO8V",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Traits.adq",
-						"id": "tnD52D6dhwXRMkPs5"
-					},
-					"name": "Loner",
-					"reference": "B142",
-					"notes": "Make a self-control roll whenever anyone lingers nearby, watches over your shoulder, etc. If you fail, you lash out at that person just as if you had Bad Temper.",
-					"tags": [
-						"Disadvantage",
-						"Mental"
-					],
-					"cr_adj": "reaction_penalty",
 					"cr": 12,
 					"base_points": -5,
 					"calc": {
@@ -1085,66 +1071,6 @@
 					}
 				},
 				{
-					"id": "t7z-eHZa3ogGXm5JH",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Traits.adq",
-						"id": "ttHkLI9zwzfeOIEZc"
-					},
-					"name": "Intolerance (@Class, Ethnicity, Nationality, Religion, Sex, or Species@)",
-					"reference": "B140",
-					"tags": [
-						"Disadvantage",
-						"Mental"
-					],
-					"replacements": {
-						"Class, Ethnicity, Nationality, Religion, Sex, or Species": "Labourers"
-					},
-					"modifiers": [
-						{
-							"id": "mBNcnAOKi0licgmLo",
-							"name": "Scope: Common",
-							"reference": "B140",
-							"cost": -5,
-							"cost_type": "points"
-						},
-						{
-							"id": "myu4gQvtmbouVMkBF",
-							"name": "Scope: Occasional",
-							"reference": "B140",
-							"cost": -2,
-							"cost_type": "points",
-							"disabled": true
-						},
-						{
-							"id": "ms6hj5UK65tOh_PqN",
-							"name": "Scope: Rare",
-							"reference": "B140",
-							"cost": -1,
-							"cost_type": "points",
-							"disabled": true
-						},
-						{
-							"id": "mSqmbxDQirYE05U7v",
-							"name": "Scope: Anyone unlike you",
-							"reference": "B140",
-							"cost": -10,
-							"cost_type": "points",
-							"disabled": true
-						}
-					],
-					"features": [
-						{
-							"type": "reaction_bonus",
-							"situation": "from victims of your intolerance (may be as much as -5, at GM's discretion)",
-							"amount": -1
-						}
-					],
-					"calc": {
-						"points": -5
-					}
-				},
-				{
 					"id": "tQxT4tVqx_0OAn22c",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -1168,10 +1094,33 @@
 					"calc": {
 						"points": -1
 					}
+				},
+				{
+					"id": "tYlkneqm6ZjasHbQ3",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tbRcx49SumN2nrk62"
+					},
+					"name": "Vow",
+					"reference": "B165",
+					"notes": "@Subject@",
+					"tags": [
+						"Mental",
+						"Quirk"
+					],
+					"replacements": {
+						"Subject": "Protect my nakama"
+					},
+					"base_points": -1,
+					"calc": {
+						"points": -1,
+						"resolved_notes": "Protect my nakama"
+					}
 				}
 			],
 			"calc": {
-				"points": -66
+				"points": -52
 			}
 		},
 		{
@@ -3214,7 +3163,7 @@
 		}
 	],
 	"created_date": "2025-02-07T21:55:43+01:00",
-	"modified_date": "2025-03-11T00:39:09+01:00",
+	"modified_date": "2025-03-30T16:20:26+02:00",
 	"calc": {
 		"swing": "1d-1",
 		"thrust": "1d-2",
