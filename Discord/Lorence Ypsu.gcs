@@ -1,8 +1,18 @@
 {
 	"version": 5,
 	"id": "AGs6JVvm8muVLfTXl",
-	"total_points": 145,
+	"total_points": 159,
 	"points_record": [
+		{
+			"when": "2025-03-25T19:12:03+01:00",
+			"points": 8,
+			"reason": "third session"
+		},
+		{
+			"when": "2025-03-25T19:11:29+01:00",
+			"points": 6,
+			"reason": "put my sheet on github"
+		},
 		{
 			"when": "2025-03-24T15:57:24+01:00",
 			"points": 10,
@@ -287,7 +297,7 @@
 				"thresholds": [
 					{
 						"state": "",
-						"expression": ""
+						"expression": "0"
 					}
 				]
 			}
@@ -3766,3 +3776,4 @@
 		]
 	}
 }
+
