@@ -1,8 +1,13 @@
 {
 	"version": 5,
 	"id": "AI34-veUBl3l7adq3",
-	"total_points": 168,
+	"total_points": 178,
 	"points_record": [
+		{
+			"when": "2025-04-29T01:12:40+02:00",
+			"points": 10,
+			"reason": "Session 5"
+		},
 		{
 			"when": "2025-04-07T23:15:43+02:00",
 			"points": 8,
