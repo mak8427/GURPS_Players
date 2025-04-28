@@ -1,8 +1,18 @@
 {
 	"version": 5,
 	"id": "ALa1HfMx9apxb6seP",
-	"total_points": 161,
+	"total_points": 175,
 	"points_record": [
+		{
+			"when": "2025-04-07T23:27:38+02:00",
+			"points": 8,
+			"reason": "Session #4"
+		},
+		{
+			"when": "2025-04-07T23:19:38+02:00",
+			"points": 6,
+			"reason": "Field Perception + More Mana"
+		},
 		{
 			"when": "2025-04-07T20:59:58+02:00",
 			"points": 1,
@@ -627,11 +637,12 @@
 		},
 		{
 			"attr_id": "mana",
-			"adj": 15,
+			"adj": 17,
+			"damage": 2,
 			"calc": {
-				"value": 15,
+				"value": 17,
 				"current": 15,
-				"points": 41
+				"points": 46
 			}
 		}
 	],
@@ -1875,6 +1886,16 @@
 						"level": 18,
 						"rsl": "IQ+5"
 					}
+				},
+				{
+					"id": "stJZKCnG4MmuXTqbs",
+					"name": "Field Perception (Magical)",
+					"difficulty": "per/vh",
+					"points": 1,
+					"calc": {
+						"level": 10,
+						"rsl": "Per-3"
+					}
 				}
 			]
 		}
@@ -2922,9 +2943,9 @@
 						}
 					],
 					"calc": {
-						"level": 5,
+						"level": 6,
 						"damage": "1d-1 cr",
-						"parry": "5F"
+						"parry": "6F"
 					}
 				},
 				{
@@ -2972,9 +2993,9 @@
 						}
 					],
 					"calc": {
-						"level": 5,
+						"level": 6,
 						"damage": "1d-2 cr",
-						"parry": "5F"
+						"parry": "6F"
 					}
 				}
 			],
@@ -3159,33 +3180,11 @@
 						"extended_value": 2,
 						"extended_weight": "0.5 lb"
 					}
-				},
-				{
-					"id": "ejJdFNZ-gB_kUjBKT",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Equipment.eqp",
-						"id": "e1oy_sNR1BiZ8wO1l"
-					},
-					"description": "Gold Coin",
-					"reference": "B264",
-					"tech_level": "1",
-					"tags": [
-						"Money: GURPS Standard Medieval Coins"
-					],
-					"value": 80,
-					"weight": "0.004 lb",
-					"quantity": 2235,
-					"equipped": true,
-					"calc": {
-						"extended_value": 178800,
-						"extended_weight": "8.94 lb"
-					}
 				}
 			],
 			"calc": {
-				"extended_value": 181362,
-				"extended_weight": "14.94 lb"
+				"extended_value": 2562,
+				"extended_weight": "6 lb"
 			}
 		}
 	],
@@ -3205,7 +3204,7 @@
 		}
 	],
 	"created_date": "2025-02-07T21:55:43+01:00",
-	"modified_date": "2025-04-07T20:59:30+02:00",
+	"modified_date": "2025-04-07T23:25:48+02:00",
 	"calc": {
 		"swing": "1d-1",
 		"thrust": "1d-2",
