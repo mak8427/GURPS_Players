@@ -637,12 +637,11 @@
 		},
 		{
 			"attr_id": "mana",
-			"adj": 17,
-			"damage": 2,
+			"adj": 18,
 			"calc": {
-				"value": 17,
-				"current": 15,
-				"points": 46
+				"value": 18,
+				"current": 18,
+				"points": 49
 			}
 		}
 	],
@@ -988,26 +987,6 @@
 					}
 				},
 				{
-					"id": "tto_twupMB98kK3O1",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Traits.adq",
-						"id": "tFfzQ6ETSImJHHvkX"
-					},
-					"name": "Pyromania",
-					"reference": "B150",
-					"notes": "Make a self-control roll whenever you have an opportunity to set a fire",
-					"tags": [
-						"Disadvantage",
-						"Mental"
-					],
-					"cr": 12,
-					"base_points": -5,
-					"calc": {
-						"points": -5
-					}
-				},
-				{
 					"id": "tyiHWjK2qrz-KRCO7",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -1136,7 +1115,7 @@
 				}
 			],
 			"calc": {
-				"points": -52
+				"points": -47
 			}
 		},
 		{
@@ -3204,7 +3183,7 @@
 		}
 	],
 	"created_date": "2025-02-07T21:55:43+01:00",
-	"modified_date": "2025-04-07T23:25:48+02:00",
+	"modified_date": "2025-04-28T17:19:15+02:00",
 	"calc": {
 		"swing": "1d-1",
 		"thrust": "1d-2",
