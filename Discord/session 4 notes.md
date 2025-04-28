@@ -1,9 +1,3 @@
----
-title: Untitled (3)
-created: '2025-03-25T12:06:14.536Z'
-modified: '2025-03-25T12:06:14.540Z'
----
-
 # **SESSION 4 NOTES**
 
 ## Goodbye Old World!
@@ -27,68 +21,34 @@ We said goodbye to Zorian, maybe for the last time.  Just before departing, Andr
 
 The group sleeps for 24 hours (almost) straight after departure. When we wake up, we realize that we spelt on a hammock inside a stinky cargo hold and that we travelled a lot during our sleep.    
 
-Aboard the ship there are:
-  -   Small Jonas is with the group, sometimes he annoys everyone with his BS, but he probably has a lot of experience;
-        
-    -  There is a guy called Swen on the ship, he calls himselft the protector of the ship. We think he's the guy that was very good with the sword, but no one talked to him and he never approached us. 
-        
-    -  There are a lot of kids, at fifteen. One of them, Mathias, is fond of Andrew and Big Rock (aka GuG).
+Aboard the ship there are: Small Jonas, sometimes he annoys everyone with his BS, but he probably has some good advice hidden between his words; a human called Swen, he calls himselft the protector of the ship. He's very good with the sword, but no one talked to him and he never approached us. There was also Arthus, piloting the ship, and there are a lot of kids, at least fifteen. One of them, Mathias, is fond of Andrew and Big Rock (his nickname for GuG).
  
 ### **We are a Modern Family**
 
--   Eralas  behaves like a protective "Karen" mom — looks after the kids and he's always on alert to make sure no ones even gets the idea of doing something unsafe (a contradiction because he then made a very unsafe move later);
-    
--   **Lowrence**:he's the  brute "dad" energy — he trains his water mimicry magic all alone and he teaches kids all the "wrong" stuff that, like how if you want someone beaten up you should pay someone to do it for you. 
-    
--   **Andrew**: is more curious and childlike —he also talks with the kids and he loves to entertain them, he then experiments with the Aelantir crystal to understand the magical wave. He finds out that the crystal points to the direction of Aelantir, but we don't know exactly where
+Everyone had his own way of spending time on the ship:
+-  Eralas, behaving like a protective "karen" mom, looked after the kids on the ship, he was always on alert to make sure no ones even gets the idea of doing something unsafe. He was also very worried that people on the ship would be in need of his assistance, so he started patrolling the ship to check on the crew.    
+- Lowrence, he has brute "dad" energy, so he mostly trained his water mimicry magic all alone. One time, he teached kids "bully" stuff like how make someone else beat up your enemies or how to stand up verbally to other people. 
+- Andrew, was the more curious and childlike, he also talked with the kids and he enjoyed entertaing them, he then experimented with the Aelantir crystal, that Zorian gave to us, to understand the magic waves. He finds out that the crystal pointed to a somewhere in the direction of Aelantir, percieving the magic waves that came out of the object, but he doesn't know exactly where.
     
 
 ----------
 
 ### **Navigation & Location**
 
--   The group realizes they are currently on the southern coast of Sorncost. We  decide to sail **northward**, using the current to reach **Venail**.
-    
+The group realized that they are currently on the southern coast of Sorncost, south of Lorent. There was a discussion with the group, Small Jonas and Arthus on how to reach the island of Venail. At the end we decided to sail northward, using the wind currents to reach the home of the exodus elves.
 
 ----------
 
-### **Magic & Discoveries**
+### **Encounter with the Vertesk Slaver ship**
 
--   New spell: **Thread of Mana** – allows the caster to **gather information from afar**.
-    
+-   A merchant ship flying a Vertesk flag was heading towards us. Eralas was very afraid of what they were hiding and tried using a new spell to spy what was happening on the vessel. He saw that the crew was made up entirely of humans and they were carrying slaves (mostly halfling/gnome). He decided to risk hurting himself to divert the ship towards the coast of Lorent, where they could be sanctioned or arrested for slavery. When the spell ended he was almost out of stamina and his firends scolded him for this decision. 
+Unfortunately, Erelas will find out that he made a mistake and the ship was heading towards the open water in the south, possibly endangering the people on the ship. 
 
-----------
-
-### **Concerning News**
-
--   A fleet of **crusader ships** carrying **slaves** is heading in **the wrong direction**, implying something is going very wrong. 😟
-    
-### **Character Points at the end of the Session**
-- Points 5 + 3 = 8 
-- bonus: +2 mana pool
+### **REWARDS**
+- Character Points: 8 
+- Bonus to everyone: +2 mana pool
 - Bonus spells:
-		- Eralas: Speel Magical Avatar
-		- Laurence: Spell Water Clone
-		- Andrew: Skill Field Preseption (Magical)
-
-----------
-
-
-    i maghi del magisterium ci hanno scoperto, tra poche ore ci saranno addosso.
-    arthus guida la nave, anche se non è un marinaio o un navigatore.
-    zorian ci ha dato un cristallo, uno di quelli che è collegato a Aelantir tramite al grande albero senziente delle leggende del sud di aelantir. ci ha detto che tramite questo cristallo si può comunicare tramite delle sottospecie di "onde magiche". 
-    Eralas pensa che sia qualcosa collegato alla divinità [Munas](https://anbennar.fandom.com/wiki/Munas_Moonsinger_(deity))
-    Andrew ha deciso di investigare su questo strano cristallo.
-    prima di salutarci per un bel po', scopriamo che zorian è un mezzelfo che proviene dalla dameria orientale, che apparteneva a una famiglia nobile decaduta, è stato costretto a fuggire a causa delle Guerre Liliac. Ha ancora molti risentimenti verso il magisterium, infatti se n'è andato con occhi insanguinati. Durante la nostra partenza abbiamo scoperto che un po' di persone ci hanno scoperto, ma non li abbiamo identificati.
-    La nave parte verso Venail. Ci svegliamo dopo 24 ore di dormita. 
-    Small Jonas è sulla nave con noi. 
-    Swen è il protettore della nave?
-    Mathias, uno dei bambini, gli piace Big Rock (cioè GuG)!
-    
-    eralas is the perfect karen protective mother, lorence is a very brute father, while andrew is still a little kid. Eralas take care of the kids, while Andrew makes some experiments with the strange aelantir rock, he's trying to figure out the magic wave. Lowrence trains with water mimicry.
-    We all figure out that we're on the South of sorncost. we all decide to go North tu use the current to get to Venail 
-    
-    new spell: thread of mana to get information from far away. 
-    
-    the crusader ships with slaves is going to THE WRONG DIRECTION ;-((((((
-
+	- Eralas: Magical Avatar
+	- Laurence: Water Clone
+- Bonus skill:
+  - Andrew: Field Preseption (Magical)
