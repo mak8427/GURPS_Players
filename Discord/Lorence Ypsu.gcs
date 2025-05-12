@@ -1,8 +1,23 @@
 {
 	"version": 5,
 	"id": "AGs6JVvm8muVLfTXl",
-	"total_points": 160,
+	"total_points": 178,
 	"points_record": [
+		{
+			"when": "2025-04-29T12:35:10+02:00",
+			"points": 10,
+			"reason": "Fifth Sessione"
+		},
+		{
+			"when": "2025-04-07T23:15:10+02:00",
+			"points": 3,
+			"reason": "Fourth session"
+		},
+		{
+			"when": "2025-04-07T23:13:39+02:00",
+			"points": 5,
+			"reason": "github update"
+		},
 		{
 			"when": "2025-04-07T19:26:17+02:00",
 			"points": 1,
@@ -299,6 +314,7 @@
 				"type": "pool",
 				"name": "MP",
 				"full_name": "Manly Points",
+				"attribute_base": "2",
 				"cost_per_point": 2.7,
 				"thresholds": [
 					{
@@ -640,8 +656,8 @@
 			"attr_id": "mana",
 			"adj": 10,
 			"calc": {
-				"value": 10,
-				"current": 10,
+				"value": 12,
+				"current": 12,
 				"points": 27
 			}
 		}
@@ -2568,6 +2584,130 @@
 			}
 		},
 		{
+			"id": "paQ0I824PlBSrS7kr",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Magic\\Magic Spells.spl",
+				"id": "pZYzeKGL4_40QnNKN"
+			},
+			"name": "Water Clone",
+			"reference": "M55",
+			"tags": [
+				"Earth"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Water"
+			],
+			"power_source": "Arcane",
+			"spell_class": "???",
+			"casting_cost": "1#",
+			"maintenance_cost": "-",
+			"casting_time": "10 sec",
+			"duration": "2d days",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "shape earth"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "shape fire"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "shape air"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "shape water"
+						},
+						"quantity": {
+							"compare": "is",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (earth)"
+								}
+							}
+						]
+					}
+				]
+			},
+			"points": 1,
+			"calc": {
+				"level": 14,
+				"rsl": "IQ+2"
+			}
+		},
+		{
 			"id": "pDGZ6hYx0qEFlLh4M",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -3791,17 +3931,17 @@
 			"id": "eKISgLoJngfGQSvsP",
 			"description": "Currenciens",
 			"legality_class": "4",
-			"value": 2604,
+			"value": 1780,
 			"quantity": 1,
 			"equipped": true,
 			"calc": {
-				"extended_value": 2604,
+				"extended_value": 1780,
 				"extended_weight": "0 lb"
 			}
 		}
 	],
 	"created_date": "2025-03-02T13:53:18+01:00",
-	"modified_date": "2025-04-07T19:29:04+02:00",
+	"modified_date": "2025-04-07T23:25:56+02:00",
 	"calc": {
 		"swing": "1d",
 		"thrust": "1d-2",
@@ -3825,5 +3965,3 @@
 		]
 	}
 }
-
-
