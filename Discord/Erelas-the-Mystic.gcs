@@ -1,8 +1,13 @@
 {
 	"version": 5,
 	"id": "AI34-veUBl3l7adq3",
-	"total_points": 168,
+	"total_points": 178,
 	"points_record": [
+		{
+			"when": "2025-04-29T01:12:40+02:00",
+			"points": 10,
+			"reason": "Session 5"
+		},
 		{
 			"when": "2025-04-07T23:15:43+02:00",
 			"points": 8,
@@ -630,11 +635,11 @@
 		},
 		{
 			"attr_id": "mana",
-			"adj": 10,
+			"adj": 11,
 			"calc": {
-				"value": 12,
-				"current": 12,
-				"points": 27
+				"value": 11,
+				"current": 11,
+				"points": 30
 			}
 		}
 	],
@@ -4446,7 +4451,7 @@
 		}
 	],
 	"created_date": "2025-02-07T23:24:25+01:00",
-	"modified_date": "2025-04-28T20:53:08+02:00",
+	"modified_date": "2025-05-12T14:45:48+02:00",
 	"calc": {
 		"swing": "1d-1",
 		"thrust": "1d-2",
