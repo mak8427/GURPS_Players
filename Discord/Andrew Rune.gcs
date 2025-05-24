@@ -1,8 +1,13 @@
 {
 	"version": 5,
 	"id": "ALa1HfMx9apxb6seP",
-	"total_points": 175,
+	"total_points": 185,
 	"points_record": [
+		{
+			"when": "2025-05-19T17:20:51+02:00",
+			"points": 10,
+			"reason": "Session #5"
+		},
 		{
 			"when": "2025-04-07T23:27:38+02:00",
 			"points": 8,
@@ -960,10 +965,10 @@
 						"Disadvantage",
 						"Mental"
 					],
-					"cr": 6,
+					"cr": 12,
 					"base_points": -5,
 					"calc": {
-						"points": -10
+						"points": -5
 					}
 				},
 				{
@@ -980,10 +985,10 @@
 						"Disadvantage",
 						"Mental"
 					],
-					"cr": 12,
+					"cr": 15,
 					"base_points": -5,
 					"calc": {
-						"points": -5
+						"points": -2
 					}
 				},
 				{
@@ -1115,7 +1120,7 @@
 				}
 			],
 			"calc": {
-				"points": -47
+				"points": -39
 			}
 		},
 		{
@@ -1457,7 +1462,7 @@
 							"modifier": -4
 						}
 					],
-					"points": 1,
+					"points": 2,
 					"defaulted_from": {
 						"type": "iq",
 						"modifier": -5,
@@ -1466,8 +1471,8 @@
 						"points": -8
 					},
 					"calc": {
-						"level": 12,
-						"rsl": "IQ-1"
+						"level": 13,
+						"rsl": "IQ+0"
 					}
 				},
 				{
@@ -3183,7 +3188,7 @@
 		}
 	],
 	"created_date": "2025-02-07T21:55:43+01:00",
-	"modified_date": "2025-04-28T17:19:15+02:00",
+	"modified_date": "2025-05-19T17:24:35+02:00",
 	"calc": {
 		"swing": "1d-1",
 		"thrust": "1d-2",
