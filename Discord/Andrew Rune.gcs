@@ -1,18 +1,8 @@
 {
 	"version": 5,
 	"id": "ALa1HfMx9apxb6seP",
-	"total_points": 198,
+	"total_points": 175,
 	"points_record": [
-		{
-			"when": "2025-06-07T15:16:47+02:00",
-			"points": 13,
-			"reason": "Session #7 + 1 for artificery + 2 for enchanting runes"
-		},
-		{
-			"when": "2025-05-19T17:20:51+02:00",
-			"points": 10,
-			"reason": "Session #5"
-		},
 		{
 			"when": "2025-04-07T23:27:38+02:00",
 			"points": 8,
@@ -524,10 +514,10 @@
 	"attributes": [
 		{
 			"attr_id": "st",
-			"adj": 0,
+			"adj": -1,
 			"calc": {
-				"value": 10,
-				"points": 0
+				"value": 9,
+				"points": -10
 			}
 		},
 		{
@@ -639,8 +629,8 @@
 			"attr_id": "hp",
 			"adj": 0,
 			"calc": {
-				"value": 10,
-				"current": 10,
+				"value": 9,
+				"current": 9,
 				"points": 0
 			}
 		},
@@ -655,377 +645,6 @@
 		}
 	],
 	"traits": [
-		{
-			"id": "TxwbP3hWx4AuBys1N",
-			"name": "Powerful Mage",
-			"ancestry": "Sparrial",
-			"container_type": "attributes",
-			"children": [
-				{
-					"id": "tLvnbzJt8LzN3_ZHs",
-					"name": "Repetition is the Mother of learning",
-					"notes": "You can achieve breakthroughs with skill checks when applying innovative solutions or exploring new knowledge.",
-					"calc": {
-						"points": 0
-					}
-				},
-				{
-					"id": "t7ZwpY2BUosxu85W2",
-					"name": "Magery",
-					"reference": "B66",
-					"notes": "I bend the world with will alone,\nShape the storm or turn to stone.\nIn battle, I am sharp and bright,\nA master of both dark and light.",
-					"tags": [
-						"Advantage",
-						"Mental",
-						"Supernatural"
-					],
-					"modifiers": [
-						{
-							"id": "mtndf1-E_IZApqeI5",
-							"name": "Dance",
-							"cost": -40,
-							"affects": "levels_only",
-							"disabled": true
-						},
-						{
-							"id": "m2QvyMkzDW6Ux6Pem",
-							"name": "Dark-Aspected",
-							"cost": -50,
-							"affects": "levels_only",
-							"disabled": true
-						},
-						{
-							"id": "mK2VEwq8yb9OG89DV",
-							"name": "Day-Aspected",
-							"cost": -40,
-							"affects": "levels_only",
-							"disabled": true
-						},
-						{
-							"id": "m0g5xD72CRxkq1Fnh",
-							"name": "Musical",
-							"cost": -50,
-							"affects": "levels_only",
-							"disabled": true
-						},
-						{
-							"id": "mnYPTUdYk_Jj_0y0U",
-							"name": "Night-Aspected",
-							"cost": -40,
-							"affects": "levels_only",
-							"disabled": true
-						},
-						{
-							"id": "mXCT_J6GjWZdN0iCT",
-							"name": "One College",
-							"notes": "@College@",
-							"cost": -40,
-							"affects": "levels_only",
-							"disabled": true
-						},
-						{
-							"id": "m0IPUzxVB9lJj4-UH",
-							"name": "Solitary",
-							"cost": -40,
-							"affects": "levels_only",
-							"disabled": true
-						},
-						{
-							"id": "mv16UFmYtsWPZ5_e0",
-							"name": "Song",
-							"cost": -40,
-							"affects": "levels_only",
-							"disabled": true
-						}
-					],
-					"features": [
-						{
-							"type": "spell_bonus",
-							"match": "all_colleges",
-							"amount": 1,
-							"per_level": true
-						},
-						{
-							"type": "skill_bonus",
-							"selection_type": "skills_with_name",
-							"name": {
-								"compare": "is",
-								"qualifier": "thaumatology"
-							},
-							"amount": 1,
-							"per_level": true
-						}
-					],
-					"can_level": true,
-					"levels": 4,
-					"calc": {
-						"points": 0
-					}
-				},
-				{
-					"id": "tyXCsc4YbVeOxD35K",
-					"name": "???????? ?????? ??? ",
-					"notes": "Everything comes at a Cost.\nYou have chosen the highest.",
-					"calc": {
-						"points": 0
-					}
-				},
-				{
-					"id": "tEBdO4ijyyf9MwD0S",
-					"name": "??????? ?????? ???????",
-					"notes": "Bound by lines, yet never still,\nA dance of order, shaped by will.\nWhen drawn with care, I hold the spark,\nBut break my chains—I birth the dark.",
-					"calc": {
-						"points": 0
-					}
-				},
-				{
-					"id": "t741NfzZvhRnGI1Wr",
-					"name": "??????? ?????? ????",
-					"notes": "I move without rest, yet I am not alive.\nI fuel the strong, yet I cannot be held.\nWhen harnessed, I give might to the world.",
-					"calc": {
-						"points": 0
-					}
-				},
-				{
-					"id": "tLnSIIWuUKvV25JG2",
-					"name": "??????? ?????? ????",
-					"notes": "I am the breath of the unseen tide,\nA force within, a spark inside.\nNot just power, but life untamed,\nThe soul of worlds, forever unnamed.",
-					"calc": {
-						"points": 0
-					}
-				}
-			],
-			"calc": {
-				"points": 0
-			}
-		},
-		{
-			"id": "TCjqGGJiq2OVQiiNB",
-			"name": "Negative Traits",
-			"children": [
-				{
-					"id": "tYlkneqm6ZjasHbQ3",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Traits.adq",
-						"id": "tbRcx49SumN2nrk62"
-					},
-					"name": "Vow",
-					"reference": "B165",
-					"notes": "@Subject@",
-					"tags": [
-						"Mental",
-						"Quirk"
-					],
-					"replacements": {
-						"Subject": "Protect my nakama"
-					},
-					"base_points": -1,
-					"calc": {
-						"points": -1,
-						"resolved_notes": "Protect my nakama"
-					}
-				},
-				{
-					"id": "tyiHWjK2qrz-KRCO7",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Traits.adq",
-						"id": "tYNyLy2IqVVc5zHut"
-					},
-					"name": "Oblivious",
-					"reference": "B146",
-					"tags": [
-						"Disadvantage",
-						"Mental"
-					],
-					"base_points": -5,
-					"features": [
-						{
-							"type": "skill_bonus",
-							"selection_type": "skills_with_name",
-							"name": {
-								"compare": "is",
-								"qualifier": "diplomacy"
-							},
-							"amount": -1
-						},
-						{
-							"type": "skill_bonus",
-							"selection_type": "skills_with_name",
-							"name": {
-								"compare": "is",
-								"qualifier": "fast-talk"
-							},
-							"amount": -1
-						},
-						{
-							"type": "skill_bonus",
-							"selection_type": "skills_with_name",
-							"name": {
-								"compare": "is",
-								"qualifier": "intimidation"
-							},
-							"amount": -1
-						},
-						{
-							"type": "skill_bonus",
-							"selection_type": "skills_with_name",
-							"name": {
-								"compare": "starts_with",
-								"qualifier": "savoir-faire"
-							},
-							"amount": -1
-						},
-						{
-							"type": "skill_bonus",
-							"selection_type": "skills_with_name",
-							"name": {
-								"compare": "is",
-								"qualifier": "sex appeal"
-							},
-							"amount": -1
-						},
-						{
-							"type": "skill_bonus",
-							"selection_type": "skills_with_name",
-							"name": {
-								"compare": "is",
-								"qualifier": "streetwise"
-							},
-							"amount": -1
-						},
-						{
-							"type": "reaction_bonus",
-							"situation": "to resist Influence skills: Diplomacy, Fast-Talk, Intimidation, Savoir-Faire, Sex Appeal, and Streetwise",
-							"amount": -1
-						}
-					],
-					"calc": {
-						"points": -5
-					}
-				},
-				{
-					"id": "tTRQASfgfWY2D_P_a",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Traits.adq",
-						"id": "tAFhfFoZosiPCFUhy"
-					},
-					"name": "No Sense of Humor",
-					"reference": "B146",
-					"tags": [
-						"Disadvantage",
-						"Mental"
-					],
-					"base_points": -10,
-					"features": [
-						{
-							"type": "reaction_bonus",
-							"situation": "from others in any situation where No Sense of Humor becomes evident",
-							"amount": -2
-						}
-					],
-					"calc": {
-						"points": -10
-					}
-				},
-				{
-					"id": "t41V9nlufIajszJv6",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Traits.adq",
-						"id": "tzWQ90ARlX5DcAAu7"
-					},
-					"name": "Nightmares",
-					"reference": "B144",
-					"notes": "Make a self-control roll each morning upon awakening. If you fail, you suffered nightmares; this costs you 1 FP that you can only recover through sleep. On a roll of 17 or 18, you are left shaking, and are at -1 to all skill and Perception rolls for the entire day.",
-					"tags": [
-						"Disadvantage",
-						"Mental"
-					],
-					"cr": 15,
-					"base_points": -5,
-					"calc": {
-						"points": -2
-					}
-				},
-				{
-					"id": "tThw3_AL4s2HY96LT",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Traits.adq",
-						"id": "t2O8gMxbRPpAWLej9"
-					},
-					"name": "Curious",
-					"reference": "B129",
-					"notes": "Make a self-control roll when presented with an interesting item or situation",
-					"tags": [
-						"Disadvantage",
-						"Mental"
-					],
-					"cr": 12,
-					"base_points": -5,
-					"calc": {
-						"points": -5
-					}
-				},
-				{
-					"id": "tQxT4tVqx_0OAn22c",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Traits.adq",
-						"id": "t5Qs23yaRu3D4T_hM"
-					},
-					"name": "Attentive",
-					"reference": "B163",
-					"tags": [
-						"Mental",
-						"Quirk"
-					],
-					"base_points": -1,
-					"features": [
-						{
-							"type": "conditional_modifier",
-							"situation": "to skill rolls when working on lengthy tasks, but -3 to notice any important interruption",
-							"amount": 1
-						}
-					],
-					"calc": {
-						"points": -1
-					}
-				},
-				{
-					"id": "t3-_BQnZvJ6xJdrKF",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Traits.adq",
-						"id": "tbB8FlaUVuRanGu-T"
-					},
-					"name": "Absent-Mindedness",
-					"reference": "B122",
-					"notes": "Once adrift in your own thoughts, you must roll against Perception-5 in order to notice any event short of personal physical injury",
-					"tags": [
-						"Disadvantage",
-						"Mental"
-					],
-					"base_points": -15,
-					"features": [
-						{
-							"type": "conditional_modifier",
-							"situation": "to all IQ and IQ-based skill rolls, save those for the task you are currently concentrating on",
-							"amount": -5
-						}
-					],
-					"calc": {
-						"points": -15
-					}
-				}
-			],
-			"calc": {
-				"points": -39
-			}
-		},
 		{
 			"id": "tD2ytAiUzBTTPvpuE",
 			"name": "Natural Attacks",
@@ -1168,6 +787,481 @@
 			}
 		},
 		{
+			"id": "tsGJT-69VqYqbiktU",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tDHschYOgUSlMTOYN"
+			},
+			"name": "Compartmentalized Mind",
+			"reference": "B43,PSI13",
+			"tags": [
+				"Advantage",
+				"Exotic",
+				"Mental"
+			],
+			"modifiers": [
+				{
+					"id": "mGHcY9RWdKaUbYgDt",
+					"name": "Massively Parallel",
+					"reference": "SU26",
+					"cost": 20,
+					"disabled": true
+				},
+				{
+					"id": "mPAPF_9Pm3pVIwUw5",
+					"name": "Controls",
+					"reference": "B43",
+					"cost": -25,
+					"cost_type": "points",
+					"affects": "base_only",
+					"disabled": true
+				},
+				{
+					"id": "mcFm-PICpp1RVF312",
+					"name": "Dedicated Controls",
+					"reference": "B43",
+					"cost": -40,
+					"cost_type": "points",
+					"affects": "base_only",
+					"disabled": true
+				},
+				{
+					"id": "mWkHAOvfHqB7eoIOH",
+					"name": "Limited, One Ability",
+					"reference": "PSI13",
+					"notes": "@Ability@",
+					"cost": -30,
+					"disabled": true
+				},
+				{
+					"id": "mtPwIdTkkyf58nWfc",
+					"name": "Limited, One Power",
+					"reference": "PSI13",
+					"notes": "@Power@",
+					"cost": -20,
+					"disabled": true
+				},
+				{
+					"id": "m50Y1J6XTm3el-VNi",
+					"name": "Mental Separation Only",
+					"reference": "PSI13",
+					"cost": -80,
+					"disabled": true
+				},
+				{
+					"id": "mUqy4gZlFuseUbLrq",
+					"name": "Mentalism",
+					"reference": "PSI14",
+					"cost": -10,
+					"disabled": true
+				},
+				{
+					"id": "muS_1o8s6yknjPPic",
+					"name": "No Mental Separation",
+					"reference": "PSI14",
+					"cost": -20,
+					"disabled": true
+				}
+			],
+			"points_per_level": 50,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 50
+			}
+		},
+		{
+			"id": "tfRI5Mu3VeeU299Gb",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "t55UZnC4Hxsvl7-ri"
+			},
+			"name": "Wealthy",
+			"reference": "B25",
+			"notes": "Starting wealth is 5x normal",
+			"tags": [
+				"Advantage",
+				"Social",
+				"Wealth"
+			],
+			"calc": {
+				"points": 0
+			}
+		},
+		{
+			"id": "TCjqGGJiq2OVQiiNB",
+			"name": "Negative Traits",
+			"children": [
+				{
+					"id": "t3-_BQnZvJ6xJdrKF",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tbB8FlaUVuRanGu-T"
+					},
+					"name": "Absent-Mindedness",
+					"reference": "B122",
+					"notes": "Once adrift in your own thoughts, you must roll against Perception-5 in order to notice any event short of personal physical injury",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"base_points": -15,
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "to all IQ and IQ-based skill rolls, save those for the task you are currently concentrating on",
+							"amount": -5
+						}
+					],
+					"calc": {
+						"points": -15
+					}
+				},
+				{
+					"id": "tTRQASfgfWY2D_P_a",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tAFhfFoZosiPCFUhy"
+					},
+					"name": "No Sense of Humor",
+					"reference": "B146",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"base_points": -10,
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from others in any situation where No Sense of Humor becomes evident",
+							"amount": -2
+						}
+					],
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "tThw3_AL4s2HY96LT",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "t2O8gMxbRPpAWLej9"
+					},
+					"name": "Curious",
+					"reference": "B129",
+					"notes": "Make a self-control roll when presented with an interesting item or situation",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"cr": 6,
+					"base_points": -5,
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "t41V9nlufIajszJv6",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tzWQ90ARlX5DcAAu7"
+					},
+					"name": "Nightmares",
+					"reference": "B144",
+					"notes": "Make a self-control roll each morning upon awakening. If you fail, you suffered nightmares; this costs you 1 FP that you can only recover through sleep. On a roll of 17 or 18, you are left shaking, and are at -1 to all skill and Perception rolls for the entire day.",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"cr": 12,
+					"base_points": -5,
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "tyiHWjK2qrz-KRCO7",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tYNyLy2IqVVc5zHut"
+					},
+					"name": "Oblivious",
+					"reference": "B146",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"base_points": -5,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "diplomacy"
+							},
+							"amount": -1
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "fast-talk"
+							},
+							"amount": -1
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "intimidation"
+							},
+							"amount": -1
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "starts_with",
+								"qualifier": "savoir-faire"
+							},
+							"amount": -1
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "sex appeal"
+							},
+							"amount": -1
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "streetwise"
+							},
+							"amount": -1
+						},
+						{
+							"type": "reaction_bonus",
+							"situation": "to resist Influence skills: Diplomacy, Fast-Talk, Intimidation, Savoir-Faire, Sex Appeal, and Streetwise",
+							"amount": -1
+						}
+					],
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "tQxT4tVqx_0OAn22c",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "t5Qs23yaRu3D4T_hM"
+					},
+					"name": "Attentive",
+					"reference": "B163",
+					"tags": [
+						"Mental",
+						"Quirk"
+					],
+					"base_points": -1,
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "to skill rolls when working on lengthy tasks, but -3 to notice any important interruption",
+							"amount": 1
+						}
+					],
+					"calc": {
+						"points": -1
+					}
+				},
+				{
+					"id": "tYlkneqm6ZjasHbQ3",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tbRcx49SumN2nrk62"
+					},
+					"name": "Vow",
+					"reference": "B165",
+					"notes": "@Subject@",
+					"tags": [
+						"Mental",
+						"Quirk"
+					],
+					"replacements": {
+						"Subject": "Protect my nakama"
+					},
+					"base_points": -1,
+					"calc": {
+						"points": -1,
+						"resolved_notes": "Protect my nakama"
+					}
+				}
+			],
+			"calc": {
+				"points": -47
+			}
+		},
+		{
+			"id": "TxwbP3hWx4AuBys1N",
+			"name": "Powerful Mage",
+			"ancestry": "Sparrial",
+			"container_type": "attributes",
+			"children": [
+				{
+					"id": "t7ZwpY2BUosxu85W2",
+					"name": "Magery",
+					"reference": "B66",
+					"notes": "I bend the world with will alone,\nShape the storm or turn to stone.\nIn battle, I am sharp and bright,\nA master of both dark and light.",
+					"tags": [
+						"Advantage",
+						"Mental",
+						"Supernatural"
+					],
+					"modifiers": [
+						{
+							"id": "mtndf1-E_IZApqeI5",
+							"name": "Dance",
+							"cost": -40,
+							"affects": "levels_only",
+							"disabled": true
+						},
+						{
+							"id": "m2QvyMkzDW6Ux6Pem",
+							"name": "Dark-Aspected",
+							"cost": -50,
+							"affects": "levels_only",
+							"disabled": true
+						},
+						{
+							"id": "mK2VEwq8yb9OG89DV",
+							"name": "Day-Aspected",
+							"cost": -40,
+							"affects": "levels_only",
+							"disabled": true
+						},
+						{
+							"id": "m0g5xD72CRxkq1Fnh",
+							"name": "Musical",
+							"cost": -50,
+							"affects": "levels_only",
+							"disabled": true
+						},
+						{
+							"id": "mnYPTUdYk_Jj_0y0U",
+							"name": "Night-Aspected",
+							"cost": -40,
+							"affects": "levels_only",
+							"disabled": true
+						},
+						{
+							"id": "mXCT_J6GjWZdN0iCT",
+							"name": "One College",
+							"notes": "@College@",
+							"cost": -40,
+							"affects": "levels_only",
+							"disabled": true
+						},
+						{
+							"id": "m0IPUzxVB9lJj4-UH",
+							"name": "Solitary",
+							"cost": -40,
+							"affects": "levels_only",
+							"disabled": true
+						},
+						{
+							"id": "mv16UFmYtsWPZ5_e0",
+							"name": "Song",
+							"cost": -40,
+							"affects": "levels_only",
+							"disabled": true
+						}
+					],
+					"features": [
+						{
+							"type": "spell_bonus",
+							"match": "all_colleges",
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "thaumatology"
+							},
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"levels": 4,
+					"calc": {
+						"points": 0
+					}
+				},
+				{
+					"id": "tLvnbzJt8LzN3_ZHs",
+					"name": "Repetition is the Mother of learning",
+					"notes": "You can achieve breakthroughs with skill checks when applying innovative solutions or exploring new knowledge.",
+					"calc": {
+						"points": 0
+					}
+				},
+				{
+					"id": "t741NfzZvhRnGI1Wr",
+					"name": "??????? ?????? ????",
+					"notes": "I move without rest, yet I am not alive.\nI fuel the strong, yet I cannot be held.\nWhen harnessed, I give might to the world.",
+					"calc": {
+						"points": 0
+					}
+				},
+				{
+					"id": "tyXCsc4YbVeOxD35K",
+					"name": "???????? ?????? ??? ",
+					"notes": "Everything comes at a Cost.\nYou have chosen the highest.",
+					"calc": {
+						"points": 0
+					}
+				},
+				{
+					"id": "tLnSIIWuUKvV25JG2",
+					"name": "??????? ?????? ????",
+					"notes": "I am the breath of the unseen tide,\nA force within, a spark inside.\nNot just power, but life untamed,\nThe soul of worlds, forever unnamed.",
+					"calc": {
+						"points": 0
+					}
+				},
+				{
+					"id": "tEBdO4ijyyf9MwD0S",
+					"name": "??????? ?????? ???????",
+					"notes": "Bound by lines, yet never still,\nA dance of order, shaped by will.\nWhen drawn with care, I hold the spark,\nBut break my chains—I birth the dark.",
+					"calc": {
+						"points": 0
+					}
+				}
+			],
+			"calc": {
+				"points": 0
+			}
+		},
+		{
 			"id": "tfocK4vTs-ySaNNmb",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -1281,118 +1375,6 @@
 			"calc": {
 				"points": -1
 			}
-		},
-		{
-			"id": "tfRI5Mu3VeeU299Gb",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "t55UZnC4Hxsvl7-ri"
-			},
-			"name": "Wealthy",
-			"reference": "B25",
-			"notes": "Starting wealth is 5x normal",
-			"tags": [
-				"Advantage",
-				"Social",
-				"Wealth"
-			],
-			"calc": {
-				"points": 0
-			}
-		},
-		{
-			"id": "tsGJT-69VqYqbiktU",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tDHschYOgUSlMTOYN"
-			},
-			"name": "Compartmentalized Mind",
-			"reference": "B43,PSI13",
-			"tags": [
-				"Advantage",
-				"Exotic",
-				"Mental"
-			],
-			"modifiers": [
-				{
-					"id": "mGHcY9RWdKaUbYgDt",
-					"name": "Massively Parallel",
-					"reference": "SU26",
-					"cost": 20,
-					"disabled": true
-				},
-				{
-					"id": "mPAPF_9Pm3pVIwUw5",
-					"name": "Controls",
-					"reference": "B43",
-					"cost": -25,
-					"cost_type": "points",
-					"affects": "base_only",
-					"disabled": true
-				},
-				{
-					"id": "mcFm-PICpp1RVF312",
-					"name": "Dedicated Controls",
-					"reference": "B43",
-					"cost": -40,
-					"cost_type": "points",
-					"affects": "base_only",
-					"disabled": true
-				},
-				{
-					"id": "mWkHAOvfHqB7eoIOH",
-					"name": "Limited, One Ability",
-					"reference": "PSI13",
-					"notes": "@Ability@",
-					"cost": -30,
-					"disabled": true
-				},
-				{
-					"id": "mtPwIdTkkyf58nWfc",
-					"name": "Limited, One Power",
-					"reference": "PSI13",
-					"notes": "@Power@",
-					"cost": -20,
-					"disabled": true
-				},
-				{
-					"id": "m50Y1J6XTm3el-VNi",
-					"name": "Mental Separation Only",
-					"reference": "PSI13",
-					"cost": -80,
-					"disabled": true
-				},
-				{
-					"id": "mUqy4gZlFuseUbLrq",
-					"name": "Mentalism",
-					"reference": "PSI14",
-					"cost": -10,
-					"disabled": true
-				},
-				{
-					"id": "muS_1o8s6yknjPPic",
-					"name": "No Mental Separation",
-					"reference": "PSI14",
-					"cost": -20,
-					"disabled": true
-				}
-			],
-			"points_per_level": 50,
-			"can_level": true,
-			"levels": 1,
-			"calc": {
-				"points": 50
-			}
-		},
-		{
-			"id": "toEWDsq2kHQA8XGXx",
-			"name": "Teamworker",
-			"notes": "Gains +1 to all skill checks when cooperating with other characters who also have the Teamworker trait.",
-			"calc": {
-				"points": 0
-			}
 		}
 	],
 	"skills": [
@@ -1445,52 +1427,6 @@
 					}
 				},
 				{
-<<<<<<< HEAD
-=======
-					"id": "sbkHCxjB_9LfSl0zt",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "shHyf3H441PtZMBlJ"
-					},
-					"name": "Merchant",
-					"reference": "B209",
-					"tags": [
-						"Business",
-						"Social"
-					],
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Finance",
-							"modifier": -6
-						},
-						{
-							"type": "skill",
-							"name": "Market Analysis",
-							"modifier": -4
-						}
-					],
-					"points": 2,
-					"defaulted_from": {
-						"type": "iq",
-						"modifier": -5,
-						"level": 8,
-						"adjusted_level": 8,
-						"points": -8
-					},
-					"calc": {
-						"level": 13,
-						"rsl": "IQ+0"
-					}
-				},
-				{
->>>>>>> e21f8498af85be843eebb2a8969341a094da24af
 					"id": "stJI7e-bhEsfe0Mrp",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -1817,6 +1753,34 @@
 						"level": 11,
 						"rsl": "Will-2"
 					}
+				}
+			]
+		},
+		{
+			"id": "SB5vZKn43y4oLH4VL",
+			"name": "Magical",
+			"children": [
+				{
+					"id": "sObiYZc7Exae_3yHq",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sa_ZE2rnayiRCI376"
+					},
+					"name": "Alchemy",
+					"reference": "B174",
+					"tags": [
+						"Magical",
+						"Natural Science",
+						"Occult"
+					],
+					"difficulty": "iq/vh",
+					"tech_level": "4",
+					"points": 1,
+					"calc": {
+						"level": 10,
+						"rsl": "IQ-3"
+					}
 				},
 				{
 					"id": "sLoTi_VTSqaFQPvfp",
@@ -1855,34 +1819,6 @@
 					"calc": {
 						"level": 12,
 						"rsl": "IQ-1"
-					}
-				}
-			]
-		},
-		{
-			"id": "SB5vZKn43y4oLH4VL",
-			"name": "Magical",
-			"children": [
-				{
-					"id": "sObiYZc7Exae_3yHq",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sa_ZE2rnayiRCI376"
-					},
-					"name": "Alchemy",
-					"reference": "B174",
-					"tags": [
-						"Magical",
-						"Natural Science",
-						"Occult"
-					],
-					"difficulty": "iq/vh",
-					"tech_level": "4",
-					"points": 1,
-					"calc": {
-						"level": 10,
-						"rsl": "IQ-3"
 					}
 				},
 				{
@@ -1932,22 +1868,11 @@
 				{
 					"id": "stJZKCnG4MmuXTqbs",
 					"name": "Field Perception (Magical)",
-					"notes": "Perception based",
 					"difficulty": "per/vh",
 					"points": 1,
 					"calc": {
 						"level": 10,
 						"rsl": "Per-3"
-					}
-				},
-				{
-					"id": "sZM_gcXx0Gzo1Buo0",
-					"name": "Artificery",
-					"difficulty": "iq/h",
-					"points": 2,
-					"calc": {
-						"level": 12,
-						"rsl": "IQ-1"
 					}
 				}
 			]
@@ -2581,7 +2506,6 @@
 					},
 					"name": "Golem",
 					"reference": "M59",
-					"notes": "Passive spell that allows me to give complex instructions to my golem",
 					"tags": [
 						"Enchantment"
 					],
@@ -2760,42 +2684,6 @@
 						"level": 16,
 						"rsl": "IQ+3"
 					}
-				},
-				{
-					"id": "PBIuvKovozM-wFTHv",
-					"name": "Enchantments",
-					"children": [
-						{
-							"id": "pU2guHzTAwSt2xTrn",
-							"name": "Heat Resistance",
-							"difficulty": "iq/h",
-							"power_source": "Arcane",
-							"spell_class": "Regular",
-							"casting_cost": "1",
-							"casting_time": "1 sec",
-							"duration": "Instant",
-							"points": 1,
-							"calc": {
-								"level": 16,
-								"rsl": "IQ+3"
-							}
-						},
-						{
-							"id": "ppv7w89P6XRnbo9dW",
-							"name": "Reinforcement",
-							"difficulty": "iq/h",
-							"power_source": "Arcane",
-							"spell_class": "Regular",
-							"casting_cost": "1",
-							"casting_time": "1 sec",
-							"duration": "Instant",
-							"points": 1,
-							"calc": {
-								"level": 16,
-								"rsl": "IQ+3"
-							}
-						}
-					]
 				},
 				{
 					"id": "pxC42IgxeSEd7vgOv",
@@ -3034,7 +2922,7 @@
 					],
 					"calc": {
 						"level": 6,
-						"damage": "1d cr",
+						"damage": "1d-1 cr",
 						"parry": "6F"
 					}
 				},
@@ -3294,15 +3182,11 @@
 		}
 	],
 	"created_date": "2025-02-07T21:55:43+01:00",
-<<<<<<< HEAD
 	"modified_date": "2025-05-12T16:22:36+02:00",
-=======
-	"modified_date": "2025-06-07T15:26:55+02:00",
->>>>>>> e21f8498af85be843eebb2a8969341a094da24af
 	"calc": {
-		"swing": "1d",
+		"swing": "1d-1",
 		"thrust": "1d-2",
-		"basic_lift": "20 lb",
+		"basic_lift": "16 lb",
 		"move": [
 			5,
 			4,
