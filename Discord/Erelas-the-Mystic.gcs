@@ -1,8 +1,13 @@
 {
 	"version": 5,
 	"id": "AI34-veUBl3l7adq3",
-	"total_points": 178,
+	"total_points": 189,
 	"points_record": [
+		{
+			"when": "2025-06-13T18:50:23+02:00",
+			"points": 11,
+			"reason": "Session 6-7"
+		},
 		{
 			"when": "2025-04-29T01:12:40+02:00",
 			"points": 10,
@@ -507,8 +512,7 @@
 		"modifiers_display": "inline",
 		"notes_display": "inline",
 		"skill_level_adj_display": "tooltip",
-		"show_spell_adj": true,
-		"exclude_unspent_points_from_total": false
+		"show_spell_adj": true
 	},
 	"attributes": [
 		{
@@ -635,11 +639,11 @@
 		},
 		{
 			"attr_id": "mana",
-			"adj": 11,
+			"adj": 13,
 			"calc": {
-				"value": 11,
-				"current": 11,
-				"points": 30
+				"value": 15,
+				"current": 15,
+				"points": 36
 			}
 		}
 	],
@@ -649,119 +653,132 @@
 			"name": "Character Advantages",
 			"children": [
 				{
-					"id": "tJW9dMThZ4V733htY",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set\\Basic Set Traits.adq",
-						"id": "tw1Ad0oSMw2ATM4X1"
-					},
-					"name": "Language: @Language@",
-					"reference": "B24",
+					"id": "t3tx0Es-dER694EZa",
+					"name": "Nature Scholar",
+					"reference": "B89",
+					"notes": "@Small@",
 					"tags": [
 						"Advantage",
-						"Language",
-						"Mental"
+						"Mental",
+						"Talent"
 					],
-					"prereqs": {
-						"type": "prereq_list",
-						"all": true,
-						"prereqs": [
-							{
-								"type": "trait_prereq",
-								"has": false,
-								"name": {
-									"compare": "is",
-									"qualifier": "Language Talent"
-								},
-								"level": {
-									"compare": "at_least"
-								}
-							}
-						]
-					},
 					"replacements": {
-						"Language": "Halfling"
+						"Small": "From naturalists, herbalists, druids, scholars of the natural world",
+						"reaction bonus situation": "Nature Sense",
+						"skill1": "Pharmacy (Herbal)",
+						"skill2": "Naturalist (Earthlike)",
+						"skill3": "Herb Lore",
+						"skill4": "Plant Path",
+						"skill5": "Botany",
+						"skill6": "Alchemy"
 					},
 					"modifiers": [
 						{
-							"id": "m7MYA3M-AUbtAm6Hz",
-							"name": "Native",
-							"reference": "B23",
-							"cost": -6,
-							"cost_type": "points",
+							"id": "mdDvzuFzUhcfjd1oc",
+							"name": "Alternate Benefit",
+							"notes": "@Alternate Benefit@",
 							"disabled": true
 						},
 						{
-							"id": "moB7FCHT3zkZ-wDXa",
-							"name": "Spoken",
-							"reference": "B24",
-							"notes": "None",
+							"id": "mo8PQz1rnEvNkhMlT",
+							"name": "Alternative Cost",
 							"cost_type": "points",
-							"disabled": true
-						},
-						{
-							"id": "mgooHe_owDogMbmei",
-							"name": "Spoken",
-							"reference": "B24",
-							"notes": "Broken",
-							"cost": 1,
-							"cost_type": "points"
-						},
-						{
-							"id": "mBw44gxai_cKlj-aa",
-							"name": "Spoken",
-							"reference": "B24",
-							"notes": "Accented",
-							"cost": 2,
-							"cost_type": "points",
-							"disabled": true
-						},
-						{
-							"id": "mwxGAcuARaNVrzoWF",
-							"name": "Spoken",
-							"reference": "B24",
-							"notes": "Native",
-							"cost": 3,
-							"cost_type": "points",
-							"disabled": true
-						},
-						{
-							"id": "mCK4uo9CYueDktInk",
-							"name": "Written",
-							"reference": "B24",
-							"notes": "None",
-							"cost_type": "points",
-							"disabled": true
-						},
-						{
-							"id": "mbkcqz5bz2YzoQuFy",
-							"name": "Written",
-							"reference": "B24",
-							"notes": "Broken",
-							"cost": 1,
-							"cost_type": "points"
-						},
-						{
-							"id": "mtFix5iNEPrKg0HGt",
-							"name": "Written",
-							"reference": "B24",
-							"notes": "Accented",
-							"cost": 2,
-							"cost_type": "points",
-							"disabled": true
-						},
-						{
-							"id": "mM6KqQhmwbuDuexBV",
-							"name": "Written",
-							"reference": "B24",
-							"notes": "Native",
-							"cost": 3,
-							"cost_type": "points",
+							"affects": "levels_only",
 							"disabled": true
 						}
 					],
+					"points_per_level": 5,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Biology"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Pharmacy"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Naturalist"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Herb Lore"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Occultism"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Plant Path"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "reaction_bonus",
+							"situation": "From naturalists, herbalists, druids, scholars of the natural world",
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"levels": 2,
 					"calc": {
-						"points": 2
+						"points": 10,
+						"resolved_notes": "From naturalists, herbalists, druids, scholars of the natural world"
+					}
+				},
+				{
+					"id": "tkiD9dzMXl2SqzEWQ",
+					"name": "Bonus MP",
+					"notes": "free mana points",
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "mana",
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"levels": 2,
+					"calc": {
+						"points": 0
 					}
 				},
 				{
@@ -897,7 +914,7 @@
 					],
 					"round_down": true,
 					"can_level": true,
-					"levels": 1,
+					"levels": 2,
 					"calc": {
 						"points": 0
 					}
@@ -1019,32 +1036,312 @@
 					}
 				},
 				{
-					"id": "tkiD9dzMXl2SqzEWQ",
-					"name": "Bonus MP",
-					"notes": "free mana points",
+					"id": "tJW9dMThZ4V733htY",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Traits.adq",
+						"id": "tw1Ad0oSMw2ATM4X1"
+					},
+					"name": "Language: @Language@",
+					"reference": "B24",
+					"tags": [
+						"Advantage",
+						"Language",
+						"Mental"
+					],
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "Language Talent"
+								},
+								"level": {
+									"compare": "at_least"
+								}
+							}
+						]
+					},
+					"replacements": {
+						"Language": "Halfling"
+					},
+					"modifiers": [
+						{
+							"id": "m7MYA3M-AUbtAm6Hz",
+							"name": "Native",
+							"reference": "B23",
+							"cost": -6,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "moB7FCHT3zkZ-wDXa",
+							"name": "Spoken",
+							"reference": "B24",
+							"notes": "None",
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mgooHe_owDogMbmei",
+							"name": "Spoken",
+							"reference": "B24",
+							"notes": "Broken",
+							"cost": 1,
+							"cost_type": "points"
+						},
+						{
+							"id": "mBw44gxai_cKlj-aa",
+							"name": "Spoken",
+							"reference": "B24",
+							"notes": "Accented",
+							"cost": 2,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mwxGAcuARaNVrzoWF",
+							"name": "Spoken",
+							"reference": "B24",
+							"notes": "Native",
+							"cost": 3,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mCK4uo9CYueDktInk",
+							"name": "Written",
+							"reference": "B24",
+							"notes": "None",
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mbkcqz5bz2YzoQuFy",
+							"name": "Written",
+							"reference": "B24",
+							"notes": "Broken",
+							"cost": 1,
+							"cost_type": "points"
+						},
+						{
+							"id": "mtFix5iNEPrKg0HGt",
+							"name": "Written",
+							"reference": "B24",
+							"notes": "Accented",
+							"cost": 2,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mM6KqQhmwbuDuexBV",
+							"name": "Written",
+							"reference": "B24",
+							"notes": "Native",
+							"cost": 3,
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"calc": {
+						"points": 2
+					}
+				},
+				{
+					"id": "tBP5j4tfwfEDQ9liy",
+					"name": "Blessed by the Woods",
+					"notes": "Gain +3 to Social or Lore checks when interacting with plants or nature",
 					"features": [
 						{
-							"type": "attribute_bonus",
-							"attribute": "mana",
+							"type": "conditional_modifier",
+							"situation": "to Social or Lore checks when interacting with plants or nature",
+							"amount": 3
+						}
+					],
+					"calc": {
+						"points": 0
+					}
+				},
+				{
+					"id": "t__UPXwvsf0G0L83l",
+					"name": "Charisma",
+					"reference": "B41",
+					"tags": [
+						"Advantage",
+						"Mental"
+					],
+					"points_per_level": 5,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "fortune-telling"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "leadership"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "panhandling"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "public speaking"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "reaction_bonus",
+							"situation": "from sapient being with whom you actively interact (converse, lecture, etc.)",
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "conditional_modifier",
+							"situation": "to Influence rolls",
 							"amount": 1,
 							"per_level": true
 						}
 					],
 					"can_level": true,
-					"levels": 2,
+					"levels": 1,
+					"calc": {
+						"points": 5
+					}
+				},
+				{
+					"id": "tVlHkKhfzSAyDXlz4",
+					"name": "Teamworker",
+					"notes": "Gains +1 to all skills checks when cooperating with other characters who also have the Teamworker trait",
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "when cooperating with other characters who also have the Teamworker trait. +1 per character",
+							"amount": 1
+						}
+					],
+					"calc": {
+						"points": 0
+					}
+				},
+				{
+					"id": "T-OU1A0DSJipJY1i2",
+					"name": "Faction Standings",
+					"children": [
+						{
+							"id": "tIDSZ6F2jtXDxVvQn",
+							"name": "Fey",
+							"notes": "Well seen by the fey",
+							"calc": {
+								"points": 0
+							}
+						}
+					],
 					"calc": {
 						"points": 0
 					}
 				}
 			],
 			"calc": {
-				"points": 8
+				"points": 23
 			}
 		},
 		{
 			"id": "T282SDiBDY0SXqr9o",
 			"name": "Character Disadvantages",
 			"children": [
+				{
+					"id": "tqmix9AG032ROGI2E",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Traits.adq",
+						"id": "t04cLZ44QvEYdsP3F"
+					},
+					"name": "Sense of Duty",
+					"reference": "B153",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"modifiers": [
+						{
+							"id": "m-3YPBJQTK5VGoTjx",
+							"name": "Friends and Companions",
+							"reference": "B153",
+							"cost": -5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mek7cyD_-ZZ2RtPxe",
+							"name": "@Small Group@",
+							"reference": "B153",
+							"cost": -5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mL3OYRpeqmqf4PW5w",
+							"name": "@Individual@",
+							"reference": "B153",
+							"cost": -2,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "m07L2_dwYXYP7o2Ab",
+							"name": "@Large Group@",
+							"reference": "B153",
+							"cost": -10,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mQX7IQp3q1ABlJ79o",
+							"name": "@Entire Race@",
+							"reference": "B153",
+							"cost": -15,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mEORjEOhC1uhRC5rA",
+							"name": "Every Living Being",
+							"reference": "B153",
+							"cost": -20,
+							"cost_type": "points"
+						}
+					],
+					"calc": {
+						"points": -20
+					}
+				},
 				{
 					"id": "tb8bydKzXS9X07JDq",
 					"source": {
@@ -1267,7 +1564,7 @@
 				}
 			],
 			"calc": {
-				"points": -70
+				"points": -90
 			}
 		},
 		{
@@ -1670,14 +1967,15 @@
 					"id": "tpBzKMIz7NxOvQJ9V",
 					"name": "Sense of Duty",
 					"reference": "B153",
-					"notes": "Connection to Nature",
+					"notes": "Nature",
 					"tags": [
 						"Disadvantage",
 						"Mental"
 					],
+					"disabled": true,
 					"base_points": -15,
 					"calc": {
-						"points": -15
+						"points": 0
 					}
 				},
 				{
@@ -1714,7 +2012,106 @@
 				}
 			],
 			"calc": {
-				"points": 58
+				"points": 73
+			}
+		},
+		{
+			"id": "t8FmjHGZccgjwTvT4",
+			"name": "Natural Attacks",
+			"reference": "B271",
+			"weapons": [
+				{
+					"id": "wJqrWoYTywsHslnjA",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "-1"
+					},
+					"usage": "Bite",
+					"reach": "C",
+					"defaults": [
+						{
+							"type": "dx"
+						},
+						{
+							"type": "skill",
+							"name": "Brawling"
+						}
+					],
+					"calc": {
+						"level": 12,
+						"damage": "1d-3 cr"
+					}
+				},
+				{
+					"id": "wYXS7cIapxoa_HUIy",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "-1"
+					},
+					"usage": "Punch",
+					"reach": "C",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx"
+						},
+						{
+							"type": "skill",
+							"name": "Boxing"
+						},
+						{
+							"type": "skill",
+							"name": "Brawling"
+						},
+						{
+							"type": "skill",
+							"name": "Karate"
+						}
+					],
+					"calc": {
+						"level": 12,
+						"damage": "1d-3 cr",
+						"parry": "9"
+					}
+				},
+				{
+					"id": "wKO9a0yQHW-WYMoNp",
+					"damage": {
+						"type": "cr",
+						"st": "thr"
+					},
+					"usage": "Kick",
+					"reach": "C,1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Brawling",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Kicking"
+						},
+						{
+							"type": "skill",
+							"name": "Karate",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"level": 10,
+						"damage": "1d-2 cr"
+					}
+				}
+			],
+			"calc": {
+				"points": 0
 			}
 		},
 		{
@@ -1864,105 +2261,6 @@
 			"calc": {
 				"points": 0
 			}
-		},
-		{
-			"id": "t8FmjHGZccgjwTvT4",
-			"name": "Natural Attacks",
-			"reference": "B271",
-			"weapons": [
-				{
-					"id": "wJqrWoYTywsHslnjA",
-					"damage": {
-						"type": "cr",
-						"st": "thr",
-						"base": "-1"
-					},
-					"usage": "Bite",
-					"reach": "C",
-					"defaults": [
-						{
-							"type": "dx"
-						},
-						{
-							"type": "skill",
-							"name": "Brawling"
-						}
-					],
-					"calc": {
-						"level": 12,
-						"damage": "1d-3 cr"
-					}
-				},
-				{
-					"id": "wYXS7cIapxoa_HUIy",
-					"damage": {
-						"type": "cr",
-						"st": "thr",
-						"base": "-1"
-					},
-					"usage": "Punch",
-					"reach": "C",
-					"parry": "0",
-					"defaults": [
-						{
-							"type": "dx"
-						},
-						{
-							"type": "skill",
-							"name": "Boxing"
-						},
-						{
-							"type": "skill",
-							"name": "Brawling"
-						},
-						{
-							"type": "skill",
-							"name": "Karate"
-						}
-					],
-					"calc": {
-						"level": 12,
-						"damage": "1d-3 cr",
-						"parry": "9"
-					}
-				},
-				{
-					"id": "wKO9a0yQHW-WYMoNp",
-					"damage": {
-						"type": "cr",
-						"st": "thr"
-					},
-					"usage": "Kick",
-					"reach": "C,1",
-					"defaults": [
-						{
-							"type": "dx",
-							"modifier": -2
-						},
-						{
-							"type": "skill",
-							"name": "Brawling",
-							"modifier": -2
-						},
-						{
-							"type": "skill",
-							"name": "Kicking"
-						},
-						{
-							"type": "skill",
-							"name": "Karate",
-							"modifier": -2
-						}
-					],
-					"calc": {
-						"level": 10,
-						"damage": "1d-2 cr"
-					}
-				}
-			],
-			"calc": {
-				"points": 0
-			}
 		}
 	],
 	"skills": [
@@ -1970,6 +2268,48 @@
 			"id": "SF4XQwgneYtEn-Aki",
 			"name": "Alchemy",
 			"children": [
+				{
+					"id": "spV3uPHlNYw37Sl37",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Skills.skl",
+						"id": "snKTMa45gp0fxpjVo"
+					},
+					"name": "Biology",
+					"reference": "B180",
+					"tags": [
+						"Natural Science",
+						"Plant"
+					],
+					"specialization": "Botany",
+					"difficulty": "iq/vh",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Naturalist",
+							"modifier": -6
+						}
+					],
+					"tech_level": "4",
+					"points": 1,
+					"defaulted_from": {
+						"type": "skill",
+						"name": "Naturalist",
+						"specialization": "Earthlike",
+						"modifier": -6,
+						"level": 8,
+						"adjusted_level": 8,
+						"points": -8
+					},
+					"calc": {
+						"level": 11,
+						"rsl": "IQ-1"
+					}
+				},
 				{
 					"id": "sJF86UmsDvwFDE5m9",
 					"source": {
@@ -2034,8 +2374,8 @@
 						"points": -9
 					},
 					"calc": {
-						"level": 12,
-						"rsl": "IQ+0"
+						"level": 14,
+						"rsl": "IQ+2"
 					}
 				},
 				{
@@ -2076,8 +2416,8 @@
 						"points": -6
 					},
 					"calc": {
-						"level": 14,
-						"rsl": "IQ+2"
+						"level": 16,
+						"rsl": "IQ+4"
 					}
 				},
 				{
@@ -2110,8 +2450,8 @@
 					"tech_level": "4",
 					"points": 8,
 					"calc": {
-						"level": 12,
-						"rsl": "IQ+0"
+						"level": 14,
+						"rsl": "IQ+2"
 					}
 				},
 				{
@@ -2130,10 +2470,10 @@
 					],
 					"difficulty": "iq/vh",
 					"tech_level": "4",
-					"points": 12,
+					"points": 16,
 					"calc": {
-						"level": 13,
-						"rsl": "IQ+1"
+						"level": 14,
+						"rsl": "IQ+2"
 					}
 				},
 				{
@@ -2257,8 +2597,8 @@
 						"points": -7
 					},
 					"calc": {
-						"level": 11,
-						"rsl": "IQ-1"
+						"level": 13,
+						"rsl": "IQ+1"
 					}
 				},
 				{
@@ -2436,9 +2776,9 @@
 						"type": "skill",
 						"name": "Magic Manipulation",
 						"modifier": -6,
-						"level": 5,
-						"adjusted_level": 5,
-						"points": -5
+						"level": 6,
+						"adjusted_level": 6,
+						"points": -6
 					},
 					"calc": {
 						"level": 14,
@@ -2461,9 +2801,9 @@
 						"type": "skill",
 						"name": "Magic Manipulation",
 						"modifier": -6,
-						"level": 5,
-						"adjusted_level": 5,
-						"points": -5
+						"level": 6,
+						"adjusted_level": 6,
+						"points": -6
 					},
 					"calc": {
 						"level": 14,
@@ -2476,10 +2816,10 @@
 					"reference": "B225",
 					"notes": "Thaumatology",
 					"difficulty": "iq/vh",
-					"points": 4,
+					"points": 8,
 					"calc": {
-						"level": 15,
-						"rsl": "IQ+3"
+						"level": 16,
+						"rsl": "IQ+4"
 					}
 				},
 				{
@@ -2553,13 +2893,13 @@
 						"type": "skill",
 						"name": "Magic Manipulation",
 						"modifier": -6,
-						"level": 5,
-						"adjusted_level": 5,
-						"points": -5
+						"level": 6,
+						"adjusted_level": 6,
+						"points": -6
 					},
 					"calc": {
-						"level": 14,
-						"rsl": "IQ+2"
+						"level": 16,
+						"rsl": "IQ+4"
 					}
 				}
 			]
@@ -4030,30 +4370,6 @@
 	],
 	"equipment": [
 		{
-			"id": "E8ehNHfTAY1w7qiup",
-			"description": "Currency Pouch",
-			"legality_class": "4",
-			"quantity": 1,
-			"equipped": true,
-			"children": [
-				{
-					"id": "e7vfsEuRWA9YDZL-g",
-					"description": "Cannorian Ducats",
-					"legality_class": "4",
-					"weight": "0.0036 lb",
-					"equipped": true,
-					"calc": {
-						"extended_value": 0,
-						"extended_weight": "0 lb"
-					}
-				}
-			],
-			"calc": {
-				"extended_value": 0,
-				"extended_weight": "0 lb"
-			}
-		},
-		{
 			"id": "eXgy1hz3dWLt7tkot",
 			"description": "Mystical Quarterstaff",
 			"reference": "B273",
@@ -4161,6 +4477,53 @@
 			}
 		},
 		{
+			"id": "Ese9Mi9WQ2a2EN0ee",
+			"description": "Medical Package",
+			"legality_class": "4",
+			"quantity": 1,
+			"equipped": true,
+			"children": [
+				{
+					"id": "eMAELDTOwEH1fIKpN",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Equipment.eqp",
+						"id": "eHoOTNeBiFqTk598H"
+					},
+					"description": "First Aid Kit",
+					"reference": "B289",
+					"notes": "A complete kit for treating wounds, with bandages, ointments, etc.",
+					"tech_level": "0",
+					"tags": [
+						"Medical Gear"
+					],
+					"value": 50,
+					"weight": "2 lb",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "First Aid"
+							},
+							"amount": 1
+						}
+					],
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 50,
+						"extended_weight": "2 lb"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
 			"id": "e0WG6fRqvFf06rAFG",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -4192,6 +4555,30 @@
 			"calc": {
 				"extended_value": 50,
 				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "E8ehNHfTAY1w7qiup",
+			"description": "Currency Pouch",
+			"legality_class": "4",
+			"quantity": 1,
+			"equipped": true,
+			"children": [
+				{
+					"id": "e7vfsEuRWA9YDZL-g",
+					"description": "Cannorian Ducats",
+					"legality_class": "4",
+					"weight": "0.0036 lb",
+					"equipped": true,
+					"calc": {
+						"extended_value": 0,
+						"extended_weight": "0 lb"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 0,
+				"extended_weight": "0 lb"
 			}
 		},
 		{
@@ -4278,34 +4665,6 @@
 			"equipped": true,
 			"children": [
 				{
-					"id": "eFGAcDwfhag5728_2",
-					"description": "Paper, 20 Sheets",
-					"notes": "Heavy papyrus or similar, suitable formaps or magical writings.",
-					"legality_class": "4",
-					"value": 20,
-					"weight": "1 lb",
-					"quantity": 1,
-					"equipped": true,
-					"calc": {
-						"extended_value": 20,
-						"extended_weight": "1 lb"
-					}
-				},
-				{
-					"id": "ez8joGK_4mWKga3gF",
-					"description": "Scribe’s Kit",
-					"notes": "Quills, inkbottles, and penknife",
-					"legality_class": "4",
-					"value": 50,
-					"weight": "2 lb",
-					"quantity": 1,
-					"equipped": true,
-					"calc": {
-						"extended_value": 50,
-						"extended_weight": "2 lb"
-					}
-				},
-				{
 					"id": "eqwldKQ9hbe9cvBC_",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -4325,6 +4684,34 @@
 					"equipped": true,
 					"calc": {
 						"extended_value": 4,
+						"extended_weight": "1 lb"
+					}
+				},
+				{
+					"id": "ez8joGK_4mWKga3gF",
+					"description": "Scribe’s Kit",
+					"notes": "Quills, inkbottles, and penknife",
+					"legality_class": "4",
+					"value": 50,
+					"weight": "2 lb",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 50,
+						"extended_weight": "2 lb"
+					}
+				},
+				{
+					"id": "eFGAcDwfhag5728_2",
+					"description": "Paper, 20 Sheets",
+					"notes": "Heavy papyrus or similar, suitable formaps or magical writings.",
+					"legality_class": "4",
+					"value": 20,
+					"weight": "1 lb",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 20,
 						"extended_weight": "1 lb"
 					}
 				},
@@ -4379,53 +4766,6 @@
 				"extended_value": 144,
 				"extended_weight": "10 lb"
 			}
-		},
-		{
-			"id": "Ese9Mi9WQ2a2EN0ee",
-			"description": "Medical Package",
-			"legality_class": "4",
-			"quantity": 1,
-			"equipped": true,
-			"children": [
-				{
-					"id": "eMAELDTOwEH1fIKpN",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set\\Basic Set Equipment.eqp",
-						"id": "eHoOTNeBiFqTk598H"
-					},
-					"description": "First Aid Kit",
-					"reference": "B289",
-					"notes": "A complete kit for treating wounds, with bandages, ointments, etc.",
-					"tech_level": "0",
-					"tags": [
-						"Medical Gear"
-					],
-					"value": 50,
-					"weight": "2 lb",
-					"features": [
-						{
-							"type": "skill_bonus",
-							"selection_type": "skills_with_name",
-							"name": {
-								"compare": "is",
-								"qualifier": "First Aid"
-							},
-							"amount": 1
-						}
-					],
-					"quantity": 1,
-					"equipped": true,
-					"calc": {
-						"extended_value": 50,
-						"extended_weight": "2 lb"
-					}
-				}
-			],
-			"calc": {
-				"extended_value": 50,
-				"extended_weight": "2 lb"
-			}
 		}
 	],
 	"other_equipment": [
@@ -4442,6 +4782,18 @@
 				"extended_value": 50,
 				"extended_weight": "30 lb"
 			}
+		},
+		{
+			"id": "enuN2VfHXgZexMs7_",
+			"description": "Nature Fey Heart",
+			"notes": "what is that?",
+			"legality_class": "4",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 0,
+				"extended_weight": "0 lb"
+			}
 		}
 	],
 	"notes": [
@@ -4451,7 +4803,7 @@
 		}
 	],
 	"created_date": "2025-02-07T23:24:25+01:00",
-	"modified_date": "2025-05-12T14:45:48+02:00",
+	"modified_date": "2025-06-13T22:15:57+02:00",
 	"calc": {
 		"swing": "1d-1",
 		"thrust": "1d-2",
