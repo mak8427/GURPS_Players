@@ -1,3 +1,5 @@
+[WIP]
+
 # session 6 notes
 
 we have lunch after the **Lucas Incident** on the ship. Andrew, Arthus and Small Jonas figured out how many supplies we need to get, now SJ is going to buy them. 
